@@ -1,0 +1,127 @@
+body {
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+	width: 80%;
+}
+
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	background: #000;
+	margin-bottom: 20px;
+}
+
+.nav-bar h1 {
+	margin-left: 5px;
+	color: #fff;
+}
+
+.color {
+	color: blue;
+}
+
+.nav-bar li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.top {
+	display: flex;
+	flex-direction: row;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.top img {
+	height: 50px;
+}
+
+.top h1 {
+	flex: 1;
+}
+
+.colour {
+	font-family: Impact;
+}
+
+.top li {
+	list-style: none;
+	display: inline-block;
+}
+
+.top a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	background: grey;
+	border-radius: 2px;
+}
+
+.board {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	border: 1px solid grey;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+
+.sign {
+	flex: 1;
+	margin-right: 150px;
+}
+
+.sign a {
+	text-decoration: none;
+	color: #fff;
+	background: blue;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.sign a:hover {
+	background: red;
+	opacity: 0.6;
+}
+
+.join {
+	display: flex;
+	flex-direction: column;
+	flex: 2;
+}
+
+.join h1 {
+	font-size: 1rem;
+}
+
+.join img {
+	width: 30px;
+}
+
+.item {
+	display: flex;
+	flex-direction: row;
+}
+
+.three {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
